@@ -1,5 +1,5 @@
 class Solution:
-    def distinctNames(self, ideas: List[str]) -> int:
+    def distinctNames(self, ideas: list[str]) -> int:
         n = len(ideas)
         counts = [[0] * 26 for _ in range(26)]
         seen = set(ideas)
